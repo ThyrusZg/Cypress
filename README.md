@@ -26,3 +26,8 @@ In my case, I used **18.16.0** version of node.js
 - Return to **Visual Studio Code** and click on **cypress** -> **e2e** and paste two folders located in this project at the same location (**practise** and **tests**)
 - In terminal of **Visual Studio Code** run following command: **npm install -D @cypress/xpath**
 - After instalation is successfull, in terminal run command: **npm run cypress:open** and start tests in **tests** by selecting them in specs
+
+### Additional info
+
+- test_data.json is holding informations that I didn't want to remember, but also in the future can be used as a storage for constants used in tests
+- If tests are not executing, you can try to change your data with one provided in this project
